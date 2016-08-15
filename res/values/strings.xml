@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- settings -->
+    <string name="url_site">http://djangopy3-ruwan800.rhcloud.com/s/</string>
+    <string name="domain_site">djangopy3-ruwan800.rhcloud.com</string>
+    
+    <!-- shaerd preferences -->
+    <string name="http_cookie_file_key">http_cookie</string>
+    
+    <string name="user_information_file_key">user_info</string>
+    <string name="user_email">EMAIL</string>
+    <string name="user_name">USER</string>
+    <string name="user_unique_key">KEY</string>
+    <string name="user_last_login">last_login</string>
+    <string name="user_gcm_success">gcm_success</string>
+    <string name="user_registration_success">registration_success</string>
+    <string name="user_login_success">login_success</string>
+    
+    <string name="gcm_registration">gcm_registration</string>
+    <string name="property_registration_id">registration_id</string>
+    <string name="property_app_version">app_version</string>
+    
+    
+    <!-- actions -->
+    <string name="action_message">Messages</string>
+    <string name="action_checkin">Check In</string>
+    <string name="action_schedule">Train Schedule</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- titles -->
+    <string name="title_activity_message">Messages</string>
+    <string name="title_activity_check_in">Check IN</string>
+    <string name="title_activity_schedule">Train Schedule</string>
+    <string name="title_activity_notification">Notifications</string>
+    <string name="title_activity_schedule_view">Train Schedule</string>
+    <string name="title_activity_schedule_info">ScheduleInfoActivity</string>
+    <string name="title_activity_auto">Information</string>
+    <string name="title_activity_message_view">MessageViewActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    
+    <string name="schedule_from">From</string>
+    <string name="schedule_to">To</string>
+    <string name="schedule_find">Find</string>
+    <string name="schedule_depature">Depature</string>
+    <string name="schedule_destination">Destination</string>
+    <string name="schedule_duration">Duration</string>
+    <string name="schedule_history">HISTORY</string>
+    <string name="schedule_default_station">COLOMBO FORT</string>
+    <string name="table_station">station</string>
+    <string name="history_message_friend">message_friend</string>
+    <string name="history_message_station">message_station</string>
+    <string name="history_message_train">message_train</string>
+    <string name="username">User Name</string>
+    <string name="register">Let\'s Start</string>
+    <string name="app_name">RailApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_notification">Notifications</string>
+
+    <!-- urls -->
+    <string name="url_db_update">update</string>
+    <string name="url_stations_all">stations/all</string>
+    <string name="url_reference_view">reference/view</string>
+    <string name="url_reference_data">reference/data</string>
+    <string name="url_reference_structure">reference/structure</string>
+    <string name="url_location">location</string>
+    <string name="url_mesage_write">messages/write</string>
+    <string name="url_user_logincheck">user/isi</string>
+    <string name="url_user_register">user/register</string>
+    <string name="url_user_gcm_id">user/gcm_id</string>
+
+    <item name="ref" type="id"/>
+
+
+</resources>

@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ScheduleActivity" >
+
+    <TextView
+        android:id="@+id/from_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop = "true"
+        android:layout_alignBottom= "@+id/from_spinner"
+        android:text="@string/schedule_from" />
+
+    <Spinner
+        android:id="@+id/from_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/from_text"
+        android:spinnerMode="dialog" />
+
+    <TextView
+        android:id="@+id/to_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/to_spinner"
+        android:layout_alignRight="@+id/from_text"
+        android:layout_below="@+id/from_spinner"
+        android:text="@string/schedule_to" />
+
+    <Spinner
+        android:id="@+id/to_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/from_spinner"
+        android:layout_toRightOf="@+id/to_text"
+        android:spinnerMode="dialog" />
+
+    <Button
+        android:id="@+id/find_schedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/to_spinner"
+        android:layout_toRightOf="@+id/to_text"
+        android:onClick="viewSchedule"
+        android:text="@string/schedule_find" />
+
+    <TextView
+        android:id="@+id/history_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/find_schedule"
+        android:text="@string/schedule_history" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/history_text" />
+
+</RelativeLayout>

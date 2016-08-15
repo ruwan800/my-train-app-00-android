@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical" >
+
+    
+    <TextView
+        android:id="@+id/home_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+
+        <ImageButton
+            android:id="@+id/action_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/AppTheme.SuperIcon"
+            android:contentDescription="@string/action_message"
+            android:src="@drawable/ra_message"
+            android:text="@string/action_message"
+            android:onClick="startActivity" />
+
+        <ImageButton
+            android:id="@+id/action_checkin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft= "40dp"
+            android:layout_marginRight= "40dp"
+            style="@style/AppTheme.SuperIcon"
+            android:contentDescription="@string/action_checkin"
+            android:src="@drawable/ra_checkin"
+            android:text="@string/action_checkin"
+            android:onClick="startActivity" />
+
+        <ImageButton
+            android:id="@+id/action_schedule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/AppTheme.SuperIcon"
+            android:src="@drawable/ra_schedule"
+            android:text="@string/action_schedule"
+            android:contentDescription="@string/action_schedule"
+            android:onClick="startActivity" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
